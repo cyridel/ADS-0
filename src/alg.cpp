@@ -2,6 +2,6 @@
 
 int gcd(int a, int b) {
     if (a % b == 0)
-		return b;
-	return NOD(b, a % b);
+	return b;
+return gcd(b, a % b);
 }
